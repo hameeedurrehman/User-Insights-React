@@ -3,7 +3,7 @@
     background-color: #ffffff;
     height: 188px;
     position: relative;
-    width: 1425px;
+    width: 100%;
     display: block;
     z-index: 999999;
 }
@@ -13,7 +13,7 @@
     left: 52px;
     position: absolute;
     top: 0;
-    width: 1320px;
+    width: 100%;
 }
 
 .header .div-col-md {
@@ -225,7 +225,7 @@
     left: 0;
     position: absolute;
     top: 120px;
-    width: 1425px;
+    width: 100%;
 }
 
 .header .div-tj-nav-holder {
@@ -233,11 +233,11 @@
     display: flex;
     gap: 287.62px;
     left: 52px;
-    max-width: 1320px;
+    max-width: 100%;
     padding: 0px 88.25px 0px 12px;
     position: relative;
     top: 1px;
-    width: 1320px;
+    width: 100%;
 }
 
 .header .nav-list {
@@ -309,7 +309,7 @@
 
 .design .group-wrapper {
     background-color: #ffffff;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .section-section-wrapper {
@@ -318,7 +318,7 @@
     left: 0;
     position: absolute;
     top: 2760px;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .section-section {
@@ -330,7 +330,7 @@
     max-width: 1320px;
     position: relative;
     top: 107px;
-    width: 1320px;
+    width: 100%;
 }
 
 .design .div-tj-heading-style {
@@ -399,7 +399,7 @@
 .design .div-row {
     height: 762px;
     position: relative;
-    width: 1320px;
+    width: 100%;
 }
 
 .design .div-col-md {
@@ -605,40 +605,19 @@
     top: 54px;
     white-space: nowrap;
 }
-
-/* .design .group-2 {
-    background-image: url(https://c.animaapp.com/sSdaXKPg/img/header.png);
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 188px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1425px;
-} */
-
 .design .section-wrapper {
     height: 870px;
     left: 0;
     position: absolute;
     top: 188px;
-    width: 1425px;
+    width: 100%;
 }
-
-/* .design .section {
-    background-image: url(https://c.animaapp.com/sSdaXKPg/img/section-2.png);
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 870px;
-    position: relative;
-} */
-
 .design .overlap {
     height: 1102px;
     left: 0;
     position: absolute;
     top: -52px;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .pseudo-2 {
@@ -647,7 +626,7 @@
     left: 0;
     position: absolute;
     top: 52px;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .div-banner-inner-wrapper {
@@ -658,7 +637,7 @@
     padding: 120px 12px 100px;
     position: absolute;
     top: 195px;
-    width: 796px;
+    width: 100%;
 }
 
 .design .div-banner-inner {
@@ -764,13 +743,13 @@
     left: 0;
     position: absolute;
     top: 912px;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .group-3 {
     height: 80px;
     position: relative;
-    width: 1329px;
+    width: 100%;
 }
 
 .design .dollar-sign {
@@ -907,7 +886,7 @@
     left: 0;
     position: absolute;
     top: 1050px;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .section-section-2 {
@@ -1411,7 +1390,7 @@
     left: 0;
     position: absolute;
     top: 1791px;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .div-container-wrapper {
@@ -1704,7 +1683,7 @@
     left: 0;
     position: absolute;
     top: 3944px;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .div-row-wrapper {
@@ -1712,7 +1691,7 @@
     display: flex;
     padding: 70px 52.5px;
     position: relative;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .div-row-3 {
@@ -1800,7 +1779,7 @@
     padding: 75px 52.5px 50px;
     position: absolute;
     top: 4138px;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .div-row-4 {
@@ -2124,7 +2103,7 @@
     padding: 20px 52.5px;
     position: absolute;
     top: 4603px;
-    width: 1425px;
+    width: 100%;
 }
 
 .design .div-col-md-7 {

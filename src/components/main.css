@@ -13,7 +13,6 @@
     left: 52px;
     position: absolute;
     top: 0;
-    width: 100%;
 }
 
 .header .div-col-md {
@@ -232,7 +231,6 @@
     align-items: flex-start;
     display: flex;
     gap: 287.62px;
-    left: 52px;
     max-width: 100%;
     padding: 0px 88.25px 0px 12px;
     position: relative;

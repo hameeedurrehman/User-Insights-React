@@ -1,5 +1,8 @@
 import "./main.css";
 import { Link } from "react-router-dom";
+import bookingimg from "../assets/booking-deals-background.png";
+import footertopimg from "../assets/footer-top-bg.png";
+import banner from "../assets/banner.png";
 
 const Main = () => {
     return (
@@ -195,7 +198,7 @@ const Main = () => {
                         <div className="section-wrapper">
                             <div className="section">
                                 <div className="overlap">
-                                    <div className="pseudo-2" />
+                                    <div className="pseudo-2" style={{backgroundImage: `url(${banner})`}} />
                                     <div className="div-banner-inner-wrapper">
                                         <div className="div-banner-inner">
                                             <div className="strong-more-recently">Free changes for life.</div>
@@ -365,7 +368,7 @@ const Main = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="section-2">
+                                <div className="section-2" style={{ backgroundImage:`url(${bookingimg})` }}>
                                     <div className="div-container-wrapper">
                                         <div className="div-container">
                                             <div className="div-tj-heading-style-2">
@@ -431,7 +434,7 @@ const Main = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="section-3">
+                        <div className="section-3" style={{backgroundImage: `url(${footertopimg})`}}>
                             <div className="div-row-wrapper">
                                 <div className="div-row-3">
                                     <div className="heading-incredible-wrapper">

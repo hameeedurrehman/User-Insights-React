@@ -1,4 +1,3 @@
-
 .header {
     background-color: #ffffff;
     height: 188px;
@@ -603,6 +602,7 @@
     top: 54px;
     white-space: nowrap;
 }
+
 .design .section-wrapper {
     height: 870px;
     left: 0;
@@ -610,6 +610,7 @@
     top: 188px;
     width: 100%;
 }
+
 .design .overlap {
     height: 1102px;
     left: 0;
@@ -620,11 +621,24 @@
 
 .design .pseudo-2 {
     background-color: #182734cc;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 870px;
     left: 0;
     position: absolute;
     top: 52px;
     width: 100%;
+}
+.design .pseudo-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(24, 39, 52, 0.8);
+    width: 100%;
+    height: 100%;
 }
 
 .design .div-banner-inner-wrapper {
@@ -1381,14 +1395,24 @@
 
 .design .section-2 {
     background-color: #182734cc;
-    background-image: url(https://c.animaapp.com/sSdaXKPg/img/section-1.png);
     background-position: 50% 50%;
     background-size: cover;
     height: 774px;
     left: 0;
-    position: absolute;
+    position: relative;
     top: 1791px;
     width: 100%;
+}
+
+.design .section-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(24, 39, 52, 0.8);
+    width: 100%;
+    height: 100%;
 }
 
 .design .div-container-wrapper {
@@ -1674,7 +1698,6 @@
 .design .section-3 {
     align-items: flex-start;
     background-color: #182734d6;
-    background-image: url(https://c.animaapp.com/sSdaXKPg/img/section.png);
     background-position: 50% 50%;
     background-size: cover;
     display: flex;
@@ -1682,6 +1705,16 @@
     position: absolute;
     top: 3944px;
     width: 100%;
+}
+.design .section-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(24, 39, 52, 0.8);
+    width: 100%;
+    height: 100%;
 }
 
 .design .div-row-wrapper {

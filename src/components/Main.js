@@ -3,12 +3,23 @@ import { Link } from "react-router-dom";
 import bookingimg from "../assets/booking-deals-background.png";
 import footertopimg from "../assets/footer-top-bg.png";
 import banner from "../assets/banner.png";
+import phoneicon from "../assets/phone-icon.png";
+import btnicon from "../assets/btn-icon.png";
+import getquote from "../assets/get-quote-icon.png";
+import happycustomers from "../assets/happy-customers.png";
+import luxurycars from "../assets/luxury-cars.png";
+import expertdrivers from "../assets/expert-drivers.png";
+import quicklinks from "../assets/quick-links.png";
+import home from "../assets/home-icon.png";
+import footerphone from "../assets/footer-phone-icon.png";
+import mail from "../assets/mail-icon.png";
+import web from "../assets/website-icon.png";
 
 const Main = () => {
     return (
         <>
             <div className="header">
-                <div className="div-row">
+                <div>
                     <div className="div-col-md">
                         <img
                             className="heading-link"
@@ -42,7 +53,7 @@ const Main = () => {
                                 <div className="div-phone-icon">
                                     <img className="pseudo" alt="Pseudo" src="https://c.animaapp.com/DmATvh4Y/img/pseudo.png" />
                                     <div className="i-fas">
-                                        <div className="text-wrapper-2"></div>
+                                        <div className="text-wrapper-2"><img src={phoneicon} alt="" /></div>
                                     </div>
                                 </div>
                                 <div className="link">+1-234-000-2345</div>
@@ -198,7 +209,7 @@ const Main = () => {
                         <div className="section-wrapper">
                             <div className="section">
                                 <div className="overlap">
-                                    <div className="pseudo-2" style={{backgroundImage: `url(${banner})`}} />
+                                    <div className="pseudo-2" style={{ backgroundImage: `url(${banner})` }} />
                                     <div className="div-banner-inner-wrapper">
                                         <div className="div-banner-inner">
                                             <div className="strong-more-recently">Free changes for life.</div>
@@ -211,69 +222,44 @@ const Main = () => {
                                             </div>
                                             <div className="div-banner-btns">
                                                 <div className="link">
-                                                    <div className="text-wrapper-3"></div>
+                                                    <div className="text-wrapper-3"><img src={btnicon} alt="" /></div>
                                                     <div className="book-call"> Book Call</div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="frame">
-                                        <div className="group-3">
-                                            <img
-                                                className="dollar-sign"
-                                                alt="Dollar sign"
-                                                src="https://c.animaapp.com/sSdaXKPg/img/dollar-sign.svg"
-                                            />
-                                            <div className="div-offer-info">
-                                                <div className="text-wrapper-4">Best Price Guaranteed</div>
-                                                <div className="p-2">
-                                                    <p className="a-more-recently-with-2">
-                                                        A more recently with desktop
-                                                        <br />
-                                                        softy like aldus page maker.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <img
-                                                className="headphones"
-                                                alt="Headphones"
-                                                src="https://c.animaapp.com/sSdaXKPg/img/headphones.svg"
-                                            />
-                                            <div className="div-offer-info-2">
-                                                <div className="text-wrapper-4">24/7 Customer Care</div>
-                                                <div className="p-2">
-                                                    <p className="a-more-recently-with-2">
-                                                        A more recently with desktop
-                                                        <br />
-                                                        softy like aldus page maker.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <img className="home" alt="Home" src="https://c.animaapp.com/sSdaXKPg/img/home.svg" />
-                                            <div className="div-offer-info-3">
-                                                <div className="text-wrapper-4">Home Pickups</div>
-                                                <div className="p-hd-ebbf">
-                                                    <p className="a-more-recently-with-2">
-                                                        A more recently with desktop
-                                                        <br />
-                                                        softy like aldus page maker.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <img className="calendar" alt="Calendar" src="https://c.animaapp.com/sSdaXKPg/img/calendar.svg" />
-                                            <div className="div-offer-info-4">
-                                                <div className="text-wrapper-4">Easy Bookings</div>
-                                                <div className="p-2">
-                                                    <p className="a-more-recently-with-2">
-                                                        A more recently with desktop
-                                                        <br />
-                                                        softy like aldus page maker.
-                                                    </p>
-                                                </div>
-                                            </div>
+
+                                    <img className="image" alt="mage" src="https://c.animaapp.com/sSdaXKPg/img/image-1.png" />
+                                </div>
+                                <div class="frame">
+                                    <div class="wrapper">
+                                        <img class="dollar-sign" alt="Dollar sign" src="https://c.animaapp.com/sSdaXKPg/img/dollar-sign.svg" />
+                                        <div class="text-wrapper-4">Best Price Guaranteed</div>
+                                        <div class="a-more-recently-with-2">
+                                            A more recently with desktop softy like aldus page maker.
                                         </div>
                                     </div>
-                                    <img className="image" alt="mage" src="https://c.animaapp.com/sSdaXKPg/img/image-1.png" />
+                                    <div class="wrapper">
+                                        <img class="headphones" alt="Headphones" src="https://c.animaapp.com/sSdaXKPg/img/headphones.svg" />
+                                        <div class="text-wrapper-4">24/7 Customer Care</div>
+                                        <div class="a-more-recently-with-2">
+                                            A more recently with desktop softy like aldus page maker.
+                                        </div>
+                                    </div>
+                                    <div class="wrapper">
+                                        <img class="home" alt="Home" src="https://c.animaapp.com/sSdaXKPg/img/home.svg" />
+                                        <div class="text-wrapper-4">Home Pickups</div>
+                                        <div class="a-more-recently-with-2">
+                                            A more recently with desktop softy like aldus page maker.
+                                        </div>
+                                    </div>
+                                    <div class="wrapper">
+                                        <img class="calendar" alt="Calendar" src="https://c.animaapp.com/sSdaXKPg/img/calendar.svg" />
+                                        <div class="text-wrapper-4">Easy Bookings</div>
+                                        <div class="a-more-recently-with-2">
+                                            A more recently with desktop softy like aldus page maker.
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="frame-2">
                                     <div className="section-section-2">
@@ -306,14 +292,14 @@ const Main = () => {
                                                     <div className="link-2">
                                                         <div className="pseudo-4" />
                                                         <div className="text-wrapper-5">Get A Quote</div>
-                                                        <div className="text-wrapper-3"></div>
+                                                        <div className="text-wrapper-3"><img src={getquote} alt="" /></div>
                                                     </div>
                                                 </div>
                                                 <div className="list">
                                                     <div className="item">
                                                         <div className="div-fact-inner">
                                                             <div className="span">
-                                                                <div className="text-wrapper-6"></div>
+                                                                <div className="text-wrapper-6"><img src={happycustomers} alt="" /></div>
                                                             </div>
                                                             <div className="strong-2">
                                                                 <div className="text-wrapper-7">500</div>
@@ -325,7 +311,7 @@ const Main = () => {
                                                     <div className="item">
                                                         <div className="div-fact-inner-2">
                                                             <div className="span-hd-afadd">
-                                                                <div className="text-wrapper-9"></div>
+                                                                <div className="text-wrapper-9"><img src={luxurycars} alt="" /></div>
                                                             </div>
                                                             <div className="strong-3">
                                                                 <div className="text-wrapper-7">200</div>
@@ -337,7 +323,7 @@ const Main = () => {
                                                     <div className="item">
                                                         <div className="div-fact-inner-3">
                                                             <div className="span-hd-fc">
-                                                                <div className="text-wrapper-9"></div>
+                                                                <div className="text-wrapper-9"><img src={expertdrivers} alt="" /></div>
                                                             </div>
                                                             <div className="strong-4">
                                                                 <div className="text-wrapper-7">150</div>
@@ -368,7 +354,7 @@ const Main = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="section-2" style={{ backgroundImage:`url(${bookingimg})` }}>
+                                <div className="section-2" style={{ backgroundImage: `url(${bookingimg})` }}>
                                     <div className="div-container-wrapper">
                                         <div className="div-container">
                                             <div className="div-tj-heading-style-2">
@@ -434,7 +420,7 @@ const Main = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="section-3" style={{backgroundImage: `url(${footertopimg})`}}>
+                        <div className="section-3" style={{ backgroundImage: `url(${footertopimg})` }}>
                             <div className="div-row-wrapper">
                                 <div className="div-row-3">
                                     <div className="heading-incredible-wrapper">
@@ -443,7 +429,7 @@ const Main = () => {
                                     <div className="link-wrapper">
                                         <div className="link-4">
                                             <div className="text-wrapper-13">Book Now</div>
-                                            <div className="text-wrapper-14"></div>
+                                            <div className="text-wrapper-14"><img style={{ filter: "invert(100%)" }} src={getquote} alt="" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -469,16 +455,16 @@ const Main = () => {
                                         </div>
                                         <div className="list-2">
                                             <div className="item-link">
-                                                <div className="text-wrapper-16"></div>
+                                                <div className="text-wrapper-16"><a href="/"><i class="fa-brands fa-facebook-f"></i></a></div>
                                             </div>
                                             <div className="item-link-2">
-                                                <div className="text-wrapper-16"></div>
+                                                <div className="text-wrapper-16"><a href="/"><i class="fa-brands fa-twitter"></i></a></div>
                                             </div>
                                             <div className="item-link-3">
-                                                <div className="text-wrapper-16"></div>
+                                                <div className="text-wrapper-16"><a href="/"><i class="fa-brands fa-linkedin-in"></i></a></div>
                                             </div>
                                             <div className="item-link-4">
-                                                <div className="text-wrapper-16"></div>
+                                                <div className="text-wrapper-16"><a href="/"><i class="fa-brands fa-instagram"></i></a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -488,23 +474,23 @@ const Main = () => {
                                         <div className="text-wrapper-15">Quick Links</div>
                                         <div className="list-3">
                                             <div className="item-2">
-                                                <div className="text-wrapper-17"></div>
+                                                <div className="text-wrapper-17"><img src={quicklinks} alt="" /></div>
                                                 <div className="text-wrapper-18">About Us</div>
                                             </div>
                                             <div className="item-3">
-                                                <div className="text-wrapper-17"></div>
+                                                <div className="text-wrapper-17"><img src={quicklinks} alt="" /></div>
                                                 <div className="text-wrapper-18">Our Services</div>
                                             </div>
                                             <div className="item-4">
-                                                <div className="text-wrapper-17"></div>
+                                                <div className="text-wrapper-17"><img src={quicklinks} alt="" /></div>
                                                 <div className="text-wrapper-18">Featured Blog</div>
                                             </div>
                                             <div className="item-5">
-                                                <div className="text-wrapper-17"></div>
+                                                <div className="text-wrapper-17"><img src={quicklinks} alt="" /></div>
                                                 <div className="text-wrapper-18">Car Fleet</div>
                                             </div>
                                             <div className="item-6">
-                                                <div className="text-wrapper-17"></div>
+                                                <div className="text-wrapper-17"><img src={quicklinks} alt="" /></div>
                                                 <div className="text-wrapper-18">FAQ</div>
                                             </div>
                                         </div>
@@ -515,21 +501,21 @@ const Main = () => {
                                         <div className="text-wrapper-15">Contact Info</div>
                                         <div className="list-4">
                                             <div className="item-7">
-                                                <div className="text-wrapper-19"></div>
+                                                <div className="text-wrapper-19"><img src={home} alt="" /></div>
                                                 <div className="span-hd-eaca">
                                                     <div className="text-wrapper-18">10A, San Andreno, USA</div>
                                                 </div>
                                             </div>
                                             <div className="item-8">
-                                                <div className="text-wrapper-20"></div>
+                                                <div className="text-wrapper-20"><img src={mail} alt="" /></div>
                                                 <div className="text-wrapper-18">example@booking.com</div>
                                             </div>
                                             <div className="item-9">
-                                                <div className="text-wrapper-19"></div>
+                                                <div className="text-wrapper-19"><img src={footerphone} alt="" /></div>
                                                 <div className="text-wrapper-18">+1-333-444-555</div>
                                             </div>
                                             <div className="item-10">
-                                                <div className="text-wrapper-19"></div>
+                                                <div className="text-wrapper-19"><img src={web} alt="" /></div>
                                                 <div className="text-wrapper-18">www.example.com</div>
                                             </div>
                                         </div>
